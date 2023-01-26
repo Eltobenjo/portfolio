@@ -1,0 +1,98 @@
+.nav-bar{
+  background: #181818;
+  height: 5rem;
+  width: 100%;
+  position:absolute;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+a {
+  font-size: 22px;
+  color:#4d4d4e;
+  line-height: 50px;
+  height: 50px;
+  position:relative;
+  text-decoration: none;
+}
+.logo{
+  font-size: 30px;
+
+}
+
+.name {font-size: 10px;
+}
+
+.logo:hover{
+  font-size:60px;
+  color: #ffd700;
+transition:all 0.5s ease-in-out;
+}
+
+.nav-icon{
+  margin: 0px 50px; 
+  
+  
+}
+
+#home svg{
+ position: relative;
+ right: 40px;
+
+}
+
+#about svg{
+  position: relative;
+  right: 40px;
+
+}
+
+#skills svg{
+  position: relative;
+  right: 40px;
+}
+
+#projects svg{
+  position: relative;
+  right: 60px;
+}
+
+#contact svg{
+  position: relative;
+  right: 60px;
+}
+
+.icon-name{
+  opacity: 0;
+}
+
+.nav-icon:hover{
+  opacity: 1;
+ color: #ffd700;
+
+}
+
+
+svg:hover{
+opacity: 0;
+}
+
+
+
+
+
+
+
+  
+  
+
+
+ 
+
+
+
